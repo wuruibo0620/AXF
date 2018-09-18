@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>{% block title %}{% endblock title %}</title>
+
+    <link rel="stylesheet" type='text/css' href="{% static 'css/common/common.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/common/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/common/swiper.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/common/common.css' %}">
+    {% block link %}{% endblock link %}
+
+    <script type="application/javascript" src="{% static 'js/common/jquery-3.1.1.min.js' %}"></script>
+    <script type="application/javascript" src="{% static 'js/common/bootstrap.min.js' %}"></script>
+    <script type="application/javascript" src="{% static 'js/common/swiper.min.js' %}"></script>
+    <script type="application/javascript" src="{% static 'js/common/common.js' %}"></script>
+    {% block script %}{% endblock script %}
+
+
+</head>
+<body>
+<head>bob is good man</head>
+{% block mian %}
+{% endblock mian %}
+<footer>
+    <a href="/axf/home"></a>
+    <a href="/axf/market"></a>
+    <a href="/axf/cart"></a>
+    <a href="/axf/mine"></a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="renbob@119.23.75.70:22">
+    <serverData>
+      <paths name="axf">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/renbob/work/Axf" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="renbob@119.23.75.70:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/renbob/work/Axf" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
